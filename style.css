@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top right, rgb(0, 107, 178),rgb(1, 213, 167));
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+.main-heading{
+    font-size: 340px;
+    color: white;
+    position: absolute;
+    top: 1%;
+    left: -1%;
+    font-family: 'Righteous', cursive;
+    font-weight: 900;
+}
+.main-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-size: cover;
+}
+
+.navbar{
+    width: 100%;
+    height: 10%;
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    
+}
+h2{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+    color: orangered;
+    left: 5%;
+    top: 10%;
+}
+h2 span{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+    top: 50%;
+    text-decoration: underline orangered;
+}
+.content0{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+button{
+    font-weight: 900;
+}
+button,button1,button2,button2,button3,button4{
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 0px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.img1{
+    position: absolute;
+    top: 10%;
+}
+
+.content1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+button5{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    color: white;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px;
+    cursor: pointer;
+}
+.content2{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+button6,button7,button8{
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
